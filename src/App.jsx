@@ -1,19 +1,18 @@
 import { useState } from "react"
-import {
-  GeneralInformation,
-  EducationalExperience,
-  PracticalExperience,
-  CVOutput
-} from "./components/CVComponents"
+import GeneralInfoSection from "./components/GeneralInfoSection"
+import EducationInfoSection from "./components/EducationInfoSection"
+import ExperienceInfoSection from "./components/ExperienceInfoSection"
+import CVOutput from "./components/CVOutput"
+
 import "./App.css"
 
 function App() {
   return (
     <>
       <div className="edit-container">
-        <GeneralInformation></GeneralInformation>
-        <EducationalExperience></EducationalExperience>
-        <PracticalExperience></PracticalExperience>
+        <GeneralInfoSection ></GeneralInfoSection >
+        <EducationInfoSection></EducationInfoSection>
+        <ExperienceInfoSection></ExperienceInfoSection>
       </div>
       <CVOutput></CVOutput>
     </>
