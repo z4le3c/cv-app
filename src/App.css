@@ -3,33 +3,20 @@
 
   padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
-  gap: 32px;
-}
-
-.edit-container {
-  min-width: 300px;
-  width: 450px;
-}
-
-.cv-output {
-  min-width: 300px;
-  width: 700px;
-  border: 1px solid black;
-  text-align: center;
-
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.edit-card {
+.cv-container {
+  min-width: 300px;
+  width: 720px;
+}
+
+.section {
   box-sizing: border-box;
-  border-radius: 8px;
   border: 1px solid black;
   padding: 64px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .input-container {
